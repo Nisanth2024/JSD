@@ -1,0 +1,66 @@
+23.07.2026|
+
+INTRODUCTION TO SOFTWARE DEVELOPMENT :
+======================================
+
+SOFTWARE:
+========
+   1.System Software
+   2.Application Software
+   3.Network Software
+
+
+ROLES AND RESPONSIBILITES OF SOFTWARE:
+======================================
+    Primary responsibilities of an entry level software engineer.
+      1.Developing solutions.
+      2.Testing and finalising solutions.
+      3.Fixing errors.
+      4.Coordinating and communicating with a team and other stakeholders.
+      5.Learning and teaching new technologies and skills.
+
+
+1.DEVELOPING SOLUTIONS:
+=======================
+   1.Understand the task that is being asked by you.
+   2.Review existing documantation of the topic.
+   3.propose an approach to solve the task.
+   4.Ask questions as needed to clarity ask.
+   5.Use coding best practices and design patterns (eg: naming conventions, track changes, version control, consistency throughout code, make code self-explanatory).
+   6.Write code needed for solution.
+   7.Reuse code when appropriate.
+
+2.TESTING AND FINALISING SOLUTIONS:
+===================================
+   1.Use a DevOps approach to make code reviwes along the coding process.
+   2.Have a knowledge of/be willing to self-teach about tests(eg : unit testing)
+   3.Track code production (eg: APM(APPLICATION PERFORMANCE MANAGEMENT) to track systems and descover error)
+   4.Test Soultions across different softwares.
+
+3.FIXING ERRORS:
+================
+   1.Locate the code that contains error independentiy or with support from colleagues.
+   2.Test the functionallity that has an error.(Runtime error)
+   3.Understand the technical details of the current error.
+   4.Test the solution is working correctly.
+   5.Test everything that can be affected ny the error(while system)
+
+4.COORDINATING AND COMMUNICATING WITH A TEAM AND OTHER STAKEHOLDERS:
+====================================================================
+   1.Participate in and organise team discussions(eg: Sprint planning, Daily Scrum, Sprint Retrospective).
+   2.Use team meetings as an opportunity to raise questions and problems(concerning your own/other's work).
+   3.Define Situations in which it is acceptable to reach out to a colleagues for help vs independent problem solving.
+   4.Find trusted contact persons who are willing to help.
+   5.Identify desired ways of support provided by selected contact persons(eg: pair programming, online chat tools like Stack, reviews on Github, etc...)
+
+5.LEARNING AND TEACHING NEW TECHNOLOGIES AND SKILLS:
+====================================================
+   1.Have knowledge of/be willing to self-teach about programming language (object oriented & functional development)and any other needed tool.
+
+=====
+
+
+
+
+
+
