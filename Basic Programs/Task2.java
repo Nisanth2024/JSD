@@ -10,7 +10,7 @@ public class Task2 {
         System.out.print("Enter a Month : ");
         int month = scan.nextInt();
 
-        boolean isLeapYear = (year % 400 == 0) || (year % 4 == 0 && year % 100 != 0);
+        boolean LeapYear = (year % 400 == 0) || (year % 4 == 0 && year % 100 != 0);
 
         switch (month) {
             case 1:
@@ -31,7 +31,7 @@ public class Task2 {
                 break;
 
             case 2:
-                if (isLeapYear) {
+                if (LeapYear) {
                     System.out.println("29 days");
                 } else {
                     System.out.println("28 days");

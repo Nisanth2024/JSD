@@ -1,0 +1,79 @@
+25.07.2026|
+
+INTRODUCTION TO PROGRAMMING:
+============================
+
+PROGRAM:
+--------
+    It is a set of instructions.
+
+Purpose of using programs:
+--------------------------
+    1.Reduce Man Power
+    2.Fast and Efficiency
+    3.Accuracy
+    4.Problem Solving
+    5.Automatic
+    6.Secure
+
+Variable:
+--------
+    *Variable is a userdefined identifier.
+    *Variables is used to storing data in RAM (Temporary Memory).
+    *The value change during execution of the program.
+    EX: RAM, Pendrive, Memory card 
+
+Constant:
+---------
+    *The value does not change during execution of the program.
+    EX: CD-r, DVD-RAM
+
+Variable naming rules:
+----------------------
+    1.Must start with alphabet(a-z)
+    2.Do not start with number, but we can use second letter onwards
+    3.Keyword or reserve words are not allowed
+    4.Special characters are not allowed except_
+    5.Space not allowed
+    6.Varibale name must be unique
+
+Keywords or resereve words:
+----------------------------
+    1.Switch
+    2.for
+    3.static
+    4.break
+    5.continue
+    6.return
+    7.int
+    8.while
+    9.public
+    10.private
+    11.void
+    12.double
+    13.protected
+    14.long
+    15.float
+    16.do
+    17.case
+    18.new
+    19.byte
+    20.class
+    21.if
+    22.else
+    23.char
+    24.enum
+    25.abstract
+    26.boolean
+    27.short
+    28.Try
+    29.super
+    30.catch
+    31.throw
+    32.throws
+    33.extends
+    34.implements
+    35.this
+    36.finally
+    37.final 
+    38.null
