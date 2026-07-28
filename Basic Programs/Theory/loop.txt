@@ -1,0 +1,67 @@
+LOOPING OR ITERATION:
+=====================
+    Definition : A set of same statements that executes more than one times untill condition is true.
+
+TYPES:
+======
+   1.for loop 
+   2.while loop 
+   3.do..while loop 
+   4.nested loop 
+
+1.for loop:
+-----------
+   *Fixed ITERATION
+
+Syntax:
+-------
+for(initial; condition ; increament/decreament)
+{
+    statement;
+
+}
+Execution:
+   step1 : initial (Starting value) ex : int i = 1;
+   step2 : condition (true/false) ex : i<10; (if true goes to step3)(if false means end loop)
+   step3 : statement ex : s.o.p(i)
+   step4 : increament/decreament ex : i++ or i=i+1 or i+=1;
+
+ex:
+for(i=5; i<17; i+3)
+{
+    s.o.p(i);
+}
+output:
+5 8 11 14
+
+
+2.while loop:
+-------------
+   *Unfixed iteration with entry loop 
+
+Syntax:
+-------
+while(condition)
+{
+    for(initial; condition; increament/decreament)
+    {
+        statement;
+    }
+}
+
+Execution:
+----------
+
+
+Ex:
+while(i<10){
+    s.o.p(i);
+}
+
+3.do..while loop:
+-----------------
+   *Unfixed iteration with exit loop
+
+4.nested loop:
+--------------
+   *A loop within a loop 
