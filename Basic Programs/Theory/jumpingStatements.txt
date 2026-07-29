@@ -1,0 +1,12 @@
+JUMPING STATEMENTS:
+==================
+      definition :- It Moves control one statement to another statement.
+      
+   1.Continue-->1.Skip the remaining statement and directly move on the increament position
+
+   2.Break----->Terminate or end loop
+
+Notes:
+-----
+continue :- only works on inside the loop
+break :- it works on both loop and switch

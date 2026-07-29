@@ -1,0 +1,19 @@
+INTRO LINUX:
+============
+    1.Linux is a OS(Operating System).
+
+Advantage:
+----------
+   1.High Security
+   2.Data Safe
+   3.No need to Anti-virus
+
+Disadvantage:
+-------------
+    1.Work to hard 
+
+GIT AND GITHUB:
+===============
+    git--------->Data storage Local to cloud
+
+    github------>Website

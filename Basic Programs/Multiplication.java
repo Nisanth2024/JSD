@@ -8,7 +8,7 @@ public class Multiplication {
             int a=i*5;
             System.out.println(i + " * 5 = " +a);
         }
-        
+        sc.close();
         }
     }
 
