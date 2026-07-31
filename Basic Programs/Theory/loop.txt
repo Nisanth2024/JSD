@@ -34,6 +34,9 @@ for(i=5; i<17; i+3)
 output:
 5 8 11 14
 
+=================
+================
+================
 
 2.while loop:
 -------------
@@ -41,18 +44,15 @@ output:
 
 Syntax:
 -------
+initial;
 while(condition)
-{
-    for(initial; condition; increament/decreament)
-    {
-        statement;
-    }
+{   
+    statement;----------------->S.o.p / if / break / continue
+    increament/decreament;------------>++, --, *=, +=, -+. /=, %=;    
 }
 
 Execution:
 ----------
-
-
 Ex:
 while(i<10){
     s.o.p(i);
