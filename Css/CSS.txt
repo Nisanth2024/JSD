@@ -1,0 +1,17 @@
+CSS:
+====
+ Cascading Style Sheet
+
+ use :- Webpage excellent design in easy way
+ 
+ invented by :- W3C company.(World wide web consoritum)
+
+ Year :- 1996(leve 1 dec 17)
+
+ CSS created by Hakon Wium Lie Bert Bos.
+
+ THREE TYPES OF CSS:
+ ===================
+ 1.inline css - with in a tag
+ 2.internal css - head tag + whole single html program
+ 3.external css - head tag + one or more html program
