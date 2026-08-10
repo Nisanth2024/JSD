@@ -15,3 +15,34 @@ CSS:
  1.inline css - with in a tag
  2.internal css - head tag + whole single html program
  3.external css - head tag + one or more html program
+
+ =================================
+
+ TITLE : POSITION:
+ -----------------
+ TYPE:
+    1.Static ----->Default
+                   *) Seperate place
+                   *) Scrolling : Yes
+                   *) outside screen : Yes
+                   *) left, right, top, bottom : NO
+    2.Absolute----->
+                   *) no Seperate place
+                   *) scrolling : Yes
+                   *) outside screen : Yes
+                   *) left, right, top, bottom : Yes
+    3.Fixed--------->
+                   *) no Seperate place
+                   *) scrolling : NO
+                   *) outside screen : NO
+                   *) left, right, top, bottom : Yes
+    4.Relative------->
+                   *) Seperate place : Yes
+                   *) scrolling : Yes
+                   *) outside screen : Yes
+                   *) left, right, top, bottom : Yes (but previous tag)
+    5.Sticky--------->
+                   *) Seperate place : Yes
+                   *) scrolling : Yes
+                   *) outside screen : NO
+                   *) left, right, top, bottom : Yes (but previous tag) 
