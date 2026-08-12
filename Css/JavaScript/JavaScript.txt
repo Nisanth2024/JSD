@@ -30,3 +30,15 @@ JAVA SCRIPT:
    ...................
    </body>
    </html>
+
+   =============
+
+Differnce Betweeen Var, Let and const
+--------------------------------------
+
+Var & let------>We can change the value.
+const--------->we can't change the value.
+
+Var----------->Global scope it works on anywere
+
+Let & const----------->Local Scope
