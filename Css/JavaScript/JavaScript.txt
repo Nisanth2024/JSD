@@ -1,0 +1,32 @@
+JAVA SCRIPT:
+============
+  1. In 1996 first introduced by Brendan Eich.
+  2.Starting Name : livescript
+  3.developed ECMAscript-262(organization approved by ISO)
+  4.only netscape navigator 2.0 first worked.
+  5.all browsers worked from 1996.
+  6.Javascript is a case sensitive language.
+  7.Javascript extension .Js 
+  8.main use : directly intreact with html code.
+  9.java and Javascript are different.
+  10.joining operator + or concatenation operator.
+  11.Javascript is a interpreter(line by line checker)
+  12.Javascript is a loosly type checked language.
+  var a=10; ------> integer
+  var b=10.20 ------>Float
+  var c="text"------>String 
+
+  General Format:
+  ---------------
+   
+   <html>
+   <head>
+   <script type="text/Javascript>
+
+   </script>
+   </head>
+   <body>
+   ..................
+   ...................
+   </body>
+   </html>
