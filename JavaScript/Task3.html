@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script type="text/javascript">
+        function findres(){
+              var m1=parseInt(document.getElementById("t1").value);
+        var num="";
+        if(m1>0){
+            num="Positive";
+            document.getElementById("r1").innerHTML="The given number "+m1+" is : "+num;
+        } 
+        else if(m1<0){
+            num="Negative";
+            document.getElementById("r1").innerHTML="The given number "+m1+" is : "+num;
+
+        }
+        else{
+            num="Zero";
+            document.getElementById("r1").innerHTML="The given number "+m1+" is : "+num;
+        }
+        }
+      
+       
+         
+
+    </script>
+</head>
+<body>
+     <input type="text" id="t1" placeholder="Enter Number"><br>
+     <input type="button" value="Result" onclick="findres()"><br>
+     <div id="r1"></div>
+    
+</body>
+</html>

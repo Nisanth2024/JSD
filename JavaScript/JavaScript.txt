@@ -42,3 +42,20 @@ const--------->we can't change the value.
 Var----------->Global scope it works on anywere
 
 Let & const----------->Local Scope
+====================================
+
+innerHTML:
+----------
+
+purpose : do not hide html form elements
+
+syntax:
+-------
+
+document.getElementById("id").innerHTML=youroutput;
+
+Home work:
+-----------
+1)given number is even or odd
+2)given numner is positive, negative or zero
+3)given year is leap year or not
