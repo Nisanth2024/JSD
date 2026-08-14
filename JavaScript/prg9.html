@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Password Toggle</title>
+    <style>
+        .password-input-group {
+            position: relative;
+            display: inline-block;
+        }
+
+        .password-input-group input {
+            padding: 10px 40px 10px 10px;
+            font-size: 16px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            width: 250px;
+        }
+
+        .eye-icon {
+            position: absolute;
+            right: 10px;
+            top: 50%;
+            transform: translateY(-50%);
+            cursor: pointer;
+            font-size: 18px;
+        }
+    </style>
+    <script type="text/javascript">
+        function showhide(){
+            const inputField = document.getElementById('passwordInput');
+            const eyeIcon = document.getElementById('eyeIcon');
+
+            if (inputField.type === 'password') {
+                inputField.type = 'text';
+                eyeIcon.textContent = '👁️';
+            } else {
+                inputField.type = 'password';
+                eyeIcon.textContent = '👁️‍🗨️';
+            }
+        }
+    </script>
+</head>
+<body>
+    <div class="password-input-group">
+        <input type="password" id="passwordInput" placeholder="Enter password">
+        <span class="eye-icon" id="eyeIcon" onclick="showhide()">👁️‍🗨️</span>
+    </div>
+</body>
+</html>

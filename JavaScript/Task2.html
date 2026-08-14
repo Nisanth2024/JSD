@@ -6,7 +6,7 @@
     <title>Document</title>
     <script type="text/javascript">
         function findres(){
-              var m1=parseInt(document.getElementById("t1").value);
+            var m1=parseInt(document.getElementById("t1").value);
         var num="";
         if(m1%2==0){
             num="Even";
@@ -14,13 +14,8 @@
         } 
         else{
             num="Odd";
-            document.getElementById("r1").innerHTML="The given number "+m1+" is : "+num;
-
+            document.getElementById("r1").innerHTML="The given number "+m1+" is : "+num;        }
         }
-        }
-      
-       
-         
 
     </script>
 </head>
@@ -28,6 +23,5 @@
      <input type="text" id="t1" placeholder="Enter Number"><br>
      <input type="button" value="Result" onclick="findres()"><br>
      <div id="r1"></div>
-    
 </body>
 </html>
