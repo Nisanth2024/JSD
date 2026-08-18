@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <Script type="text/javascript">
+        function  dis(){
+            var data=document.getElementById("t1").value;
+            var re=/^[A-Za-z0-9]{1,}$/;
+            if(data.match(re))
+            alert("valid");
+        else
+        alert("not Valid");
+        }
+    </Script>
+</head>
+<body>
+    <h1><center>Regular expresion . 2.Name validation(only caps+small+number,min-1: ,max-infinte) </center></h1>
+    <input type="text" id="t1" placeholder="Enter a Name">
+    <br>
+    <input type="button" value="validate" onclick="dis()">
+    <div id="res"></div>
+
+    
+</body>
+</html>

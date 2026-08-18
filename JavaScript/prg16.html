@@ -1,0 +1,37 @@
+<!-- Array 
+           de:a set of value arrangrd in sequential of single name variable is known as array
+           Array Syntax:
+           var variablename[]={value1,value2......}
+           array intex always start from :0
+           inbuild :
+           arrayvariablename.length -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <Script type="text/javascript">
+function show(){
+    //var arr=[10,20,30,40];
+    //or
+    var arr=new Array(10,20,30,40,50,500);
+    
+document.write("value 1:"+arr[0]);
+document.write("value 2:"+arr[1]);
+document.write("value 3:"+arr[2]);
+document.write("value 4:"+arr[3]);
+    
+ var len=arr.length;
+ for(var i=0;i<len;i++){
+    document.write("<br> value"+i+"="+arr[i])
+ }
+}
+    </Script>
+
+</head>
+<body>
+    <button onclick="show()"> array demo</button>
+    
+</body>
+</html>

@@ -56,6 +56,13 @@ document.getElementById("id").innerHTML=youroutput;
 
 Home work:
 -----------
-1)given number is even or odd
-2)given numner is positive, negative or zero
-3)given year is leap year or not
+1) given number is even or odd
+2) given numner is positive, negative or zero
+3) given year is leap year or not
+===
+1) find max value of an array
+2) sum of array
+3) sum of even numbers in an array
+4) count the odd numbers in an array
+=======
+1)  
