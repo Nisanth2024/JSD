@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script type="text/javascript">
+        function arry(){
+        var size=parseInt(document.getElementById("t1").value);
+            var arr=new Array(size);
+            var cnt=0;
+            for(var i=0;i<size;i++){
+                arr[i]=parseInt(prompt("Enter array value of index "+i));
+            }
+            for(var i=0;i<arr.length;i++){
+                if(arr[i]%2!=0)
+                   cnt++;
+            }
+            if(cnt!=0)
+            document.getElementById("res").innerHTML="The count of odd numbers in array is:"+cnt;
+        }
+    </script>
+</head>
+<body>
+    <h3>Find odd numbers count in array</h3>
+    <input type="text" id="t1" placeholder="Enter number">
+    <button onclick="arry()">Result</button>
+    <div id="res"></div>
+</body>
+</html>

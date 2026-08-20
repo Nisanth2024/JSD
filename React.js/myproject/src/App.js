@@ -1,7 +1,8 @@
 import React from 'react'
 
 function App() {
-  var arr=[11,22,33,44,55,66,77];
+  var arr=[11,22,33,104,44,55,66,77];
+  var big=arr[0];
   return (
     <div>
       <h1>Array Demo</h1>
@@ -12,7 +13,13 @@ function App() {
       <ol type="I">
       {arr.map((item)=><li key={item}>{item}</li>)}
       </ol>
+
+      <div style={{display : "none"}}>
+        {arr.map((v)=><>{big<v && <>{big=v}</>}</>)}
       </div>
+      <h1>Biggest Number : {big}</h1>
+      </div>
+      
   )
 }
 export default App;
