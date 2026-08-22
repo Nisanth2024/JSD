@@ -7,16 +7,18 @@ import reportWebVitals from './reportWebVitals';
 //var sname="Nisanth";
 //var marks=[77,88,99,100,90];
 //var stud={rno:1,sname:"Nisanth",mark:98,result:"Pass",iselegible : true};
-var stud={
+/*var stud={
   rno:1001,
   sname:"Nisanth",
-  mark:[99,77,10],
+  mark:[99,77,10],    
   result:"Null"
 }
+*/
+
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <App data={stud}/>
+    <App />
   </React.StrictMode>
 );
 

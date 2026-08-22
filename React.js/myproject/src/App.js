@@ -1,5 +1,138 @@
 import React from 'react'
-function App(props) {
+function App() {
+  let dis=()=>{
+    var tags=document.getElementsByTagName("input");
+    var size=tags.length;
+    var sum=0;
+    document.getElementById("res1").innerHTML="Textbox count:"+size;
+    for(var i=0 ;i<size;i++){
+      sum=sum+parseInt(tags[i].value);
+    }
+    document.getElementById("res").innerHTML="Total:"+sum;
+
+   /* var m1=parseInt(document.getElementById("t1").value);
+    var m2=parseInt(document.getElementById("t2").value);
+    var m3=parseInt(document.getElementById("t3").value);
+    var m4=parseInt(document.getElementById("t4").value);
+    var m5=parseInt(document.getElementById("t5").value);
+    var tot=m1+m2+m3+m4+m5;
+    document.getElementById("res").innerHTML="total"+tot;*/
+
+  }
+  return (
+    <div>
+      <h1>forms</h1>
+      <input type="text" placeholder="mark1" id="t1"></input><br></br>
+      <input type="text" placeholder="mark2" id="t2"></input><br></br>
+      <input type="text" placeholder="mark3" id="t3"></input><br></br>
+      <input type="text" placeholder="mark4" id="t4"></input><br></br>
+      <input type="text" placeholder="mark5" id="t5"></input><br></br>
+      <button onClick={dis}>Find total</button>
+      <div id="res"></div>
+      <div id="res1"></div>
+    </div>
+  )
+}
+
+export default App
+
+/*import React from 'react'
+function App() {
+  const dis=(event)=>{
+    document.getElementById("res").innerHTML="You are currently working on "+event.target.type;
+  }
+  return (
+    <div>
+      <input type='text' placeholder='text' onChange={dis}></input><br></br>
+      <input type='password' placeholder='password' onChange={dis}></input><br></br>
+      <input type='radio' name="ans" onChange={dis}></input>yes<br></br>
+      <input type='radio' name="ans" onChange={dis}></input>No<br></br>
+      <input type="checkbox" onChange={dis}></input>c
+      <input type="checkbox" onChange={dis}></input>c++
+      <input type="checkbox" onChange={dis}></input>c#<br></br>
+      <div id="res"></div>
+    </div>
+  )
+}
+export default App*/
+/*function App() {
+  const dis=()=>{
+    var m1=parseInt(document.getElementById("t1").value);
+    var m2=parseInt(document.getElementById("t2").value);
+    var total=m1+m2;
+    document.getElementById("res").innerHTML="Total Marks:"+total;
+  }
+  return (
+    <div>
+      <input type="text" id='t1' placeholder='Enter Mark 1'></input><br></br>
+      <input type="text" id='t2' placeholder='Enter Mark 2'></input><br></br>
+      <input type="button" onClick={dis} value="Find Total"></input><br></br>
+    </div>
+
+  )
+}
+export default App*/
+
+/*function App() {
+  const dis1=(event)=>{
+    document.getElementById("res").innerHTML="Cursor is out of the input box";
+    document.getElementById("t1").style.backgroundColor="red";
+  }
+  const dis2=(event)=>{
+    document.getElementById("res").innerHTML="Cursor is in the input box";
+    document.getElementById("t1").style.backgroundColor="green";
+  }
+  return (
+    <div>
+      <input type="text" id="t1" onBlur={dis1} onFOcus={dis2} placeholder='Enter Text'></input><br></br>
+      <div id="res"></div>
+    </div>
+  )
+}
+export default App*/
+/*function App() {
+  const dis=(event)=>{
+    var data=event.target.value;
+    document.getElementById("res").innerHTML=data+"....Typing";
+  }
+  return (
+    <div>
+      <h1>React Events</h1>
+      <input type="text" onChange={dis} placeholder='Enter Text'></input><br></br>
+      <br></br>
+      <div id="res"></div>
+
+    </div>
+  )
+}
+export default App*/
+/*function App() {
+  return (
+    <div>
+      <h1>React Forms :</h1>
+      <input type="text" id='t1' placeholder='Enter Mark 1'></input><br></br>
+      <input type="text" id='t2' placeholder='Enter Mark 2'></input><br></br>
+      <input type="text" id='t3' placeholder='Enter Mark 3'></input><br></br>
+      <input type="text" id='t4' placeholder='Enter Mark 4'></input><br></br>
+      <input type="text" id='t5' placeholder='Enter Mark 5'></input><br></br>
+      <input type="password" id='pw' placeholder='Enter Password'></input><br></br>
+      <input type="Number" id='num' placeholder='Enter Number'></input><br></br>
+      <label>Select Gender</label>
+      <input type="Radio" id='r1'></input>Male
+      <input type="Radio" id='r2'></input>Female
+      <input type="Radio" id='r3'></input>Other<br></br>
+      <label>Select your Courses</label>
+      <input type="checkbox" id='c1'></input>Java
+      <input type="checkbox" id='c2'></input>Python
+      <input type="checkbox" id='c3'></input>C++
+      <input type="checkbox" id='c4'></input>None Of These Above<br></br>
+      <label></label>
+      
+    </div>
+  )
+}
+export default App*/
+/*function App(props) {
    var arr=[]
   for(var k in props.data){
     arr.push(k)
@@ -12,13 +145,16 @@ function App(props) {
       <h2>Student Mark1 : {props.data.mark[0]}</h2>
       <h2>Student Mark2 : {props.data.mark[1]}</h2>
       <h2>Student Mark3 : {props.data.mark[2]}</h2>
-      <h2>Student Result: {props.data.mark[0]>34 && props.data.mark[1]>34 && props.data.mark[2]>34?"Pass":"Fail"}</h2>
+      <h2>Student Result: {props.data.mark[0]>34 && props.data.mark[1]>34 && props.data.mark[2]>34?props.data.Results="Pass":props.data.Results="Fail"}</h2>
       <h2>==========================================Additional==========================================</h2>
-      <h2>Student Roll no: {props.data.rno}<br></br> Student Name: {props.data.sname}<br></br> Mark1: {props.data.mark[0]} <br></br> Mark2: {props.data.mark[1]} <br></br> Mark3: {props.data.mark[2]} <br></br> Result: {props.data.mark[0] > 34 && props.data.mark[1] > 34 && props.data.mark[2] > 34 ? "Pass" : "Fail"}</h2>
+      {arr.map((item)=><><br></br>{item}====&gt;{props.data[item]}</>)}
+      <h2>===========================================Extra=========================================</h2>
+      {arr.map((item)=><><br></br>{item}====&gt;{item==="marks"} && props.data[item].map((v,index)={'>'}<><br></br>Mark:{index+1}===={v}</>) || {props.data[item]}</>)}
     </div>
   )
 }
 export default App
+*/
  /*function App(props) {
   var arr=[]
   for(var k in props.data){
