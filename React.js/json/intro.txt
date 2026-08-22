@@ -1,0 +1,43 @@
+json:
+=====
+   JavaScript object notation
+
+Two Types:
+===========
+1)Normalized json
+2)denormalized or embed json
+
+1)Normalized json
+-----------------
+var stud={
+    r.no : 19001,
+    sname : "Nisanth",
+    mark : 90,
+    grade : "A",
+    result = "Pass"
+
+}
+
+2)denormalized or embed json
+-----------------------------
+var stud={
+    r.no : 1991,
+    sname : "Maadhesh",
+    Mark : {
+        tamil : 100
+        english : 90
+        Maths : 80
+        science : 99
+        social : 100
+
+    }
+    rank : 1
+}
+
+Purpose:
+--------
+*)Light-weight process
+*)fast access
+*)no-sql
+*)paragraph format
+*)unstructured format
