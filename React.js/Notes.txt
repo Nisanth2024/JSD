@@ -1,0 +1,33 @@
+Axios : To maintain Restful API
+What is the purpose of using usestates Hook?
+        
+         ====>Runtime data management
+         ====>Automatically update DOM when state changes.
+
+Pre request : No need to install modules because useState is inbuild.
+        
+Notes:
+-------
+Step 1 : 
+header file:
+import{usestate} from 'react'
+
+Step2:
+Declaration
+
+const [var,setVar]=useState("Default value")
+EX:
+const [var,setCity]=useState("Karur")
+
+Step 3:
+<input type="text" value={city} onchange={(e)=>disc(e)}></input>
+
+Step 4:
+Change the state : (important)
+
+setCity("Yourvalue")
+
+Ex:
+const dis=(Event)=>{
+    setCity(Event.target.value)
+}

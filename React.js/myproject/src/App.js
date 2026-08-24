@@ -1,4 +1,36 @@
 import React from 'react'
+import axios from 'axios'
+function App() {
+  const[city,setCity]=React.useState("")
+  const cityfun=(event)=>{
+    setCity(event.target.value)
+  }
+  const show=()=>{
+    const apiurl=`https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=53704c684b61746f1d2f76eecdfdb680`
+    axios.get(apiurl).then((res)=>{
+      console.log(res.data)
+    })
+    
+
+    //console.log(apiurl)
+  }
+  return (
+    <div>
+      <h1><center>Weather Report for all over world</center></h1>
+      <h1><center>By Using Entering City Name</center></h1>
+      <h2><center>Developed By Nisanth.N</center></h2>
+      <hr size="10" color='black'></hr><br></br>
+      <input type="text" value={city} onChange={(e)=>cityfun(e)} name="city" placeholder='Enter City Name'></input><br></br><br></br>
+      <input type="button" value="Get Weather Report" onClick={show}></input><br></br>
+      <br></br><hr size="10" color='black'></hr>
+      
+
+    </div>
+  )
+}
+export default App
+
+/*
 function App() {
   let dis=()=>{
     var tags=document.getElementsByTagName("input");
@@ -9,14 +41,6 @@ function App() {
       sum=sum+parseInt(tags[i].value);
     }
     document.getElementById("res").innerHTML="Total:"+sum;
-
-   /* var m1=parseInt(document.getElementById("t1").value);
-    var m2=parseInt(document.getElementById("t2").value);
-    var m3=parseInt(document.getElementById("t3").value);
-    var m4=parseInt(document.getElementById("t4").value);
-    var m5=parseInt(document.getElementById("t5").value);
-    var tot=m1+m2+m3+m4+m5;
-    document.getElementById("res").innerHTML="total"+tot;*/
 
   }
   return (
@@ -35,6 +59,15 @@ function App() {
 }
 
 export default App
+/*
+
+   /* var m1=parseInt(document.getElementById("t1").value);
+    var m2=parseInt(document.getElementById("t2").value);
+    var m3=parseInt(document.getElementById("t3").value);
+    var m4=parseInt(document.getElementById("t4").value);
+    var m5=parseInt(document.getElementById("t5").value);
+    var tot=m1+m2+m3+m4+m5;
+    document.getElementById("res").innerHTML="total"+tot;*/
 
 /*import React from 'react'
 function App() {
