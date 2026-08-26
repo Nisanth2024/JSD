@@ -1,0 +1,13 @@
+FOR DEPOLY LIVE IN THE GITHUB:
+==============================
+git init
+git add .
+git add .
+git status
+git commit -m "Weather-Report"
+git branch -M main
+git remote add origin https://github.com/Nisanth2024/Weather-Report.git
+git push -u origin main
+npm run deploy 
+===================
+====================

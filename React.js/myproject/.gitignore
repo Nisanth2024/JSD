@@ -21,3 +21,4 @@
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
+VITE_WEATHER_API_KEY=53704c684b61746f1d2f76eecdfdb680
