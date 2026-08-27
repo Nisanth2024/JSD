@@ -1,0 +1,105 @@
+MongoDB:
+========
+ MongoDB is an open source, document oriented (paragraph formart)
+ pairs.database that stores data in form of documents(key and value )
+
+ Documents based example:
+ ========================
+ var stud={
+    rno : 1001,
+    name : "Nisanth",
+    age : 21,
+    website : "WWW.Nisanth.com",
+    hobbies : {"Cooking","Volleyball"}
+ }
+
+ Nested json :
+ ============
+
+ var emp={
+    eno : 1,
+    ename : "Nisanth",
+    esal : 28800.05,
+    designation : "trainer",
+    qualification : "MCA"
+
+ }
+ This is a Json like structure.
+ where data is stored in form of key and value pairs.
+
+ History of MongoDB:
+ ===================
+ MongoDB was created by Eliot and Dwight in 2007.
+ when they faced scalability issues.
+ while working with relational database.
+
+ The organization changed its name in 2013 and now know as MongoDB Inc.
+
+ Features of MongoDB:
+ ===================
+ 1.MongoDB provides high performance.
+ Most of the operations in the MongoDB are faster compared to relational databases.
+ 2.MongoDB provides auto replication Feature
+ that allows you to quickly recover data in case of a failure.
+ 3.Horizontal scaling is possible in MongoDB because of sharing.
+ sharing is partitioning of data and placing it on multiple machines
+ in such a way that order of the data is preserved.
+
+ =======================================
+ =======================================
+ =======================================
+
+ How to Create DB :
+ =================
+ --------->Use Yourdbname
+
+ test> use nvmJSD
+ ================
+ how to insert sample data?
+
+ nvmJSD >db.student.insertOne({})
+ EX:
+ nvmJSD>db.student.insertOne
+ ({rno:1001,sname:"nisanth",mark:98})
+
+ insert 10 records
+ ===================
+ how to view data from collections?
+
+ nvmjsd>db.student.find()
+ ==================================
+ how to view all databases?
+
+ >show dbs 
+ =====================================
+ how to view all collections from a db?
+
+ >show collections
+ =======================================
+ how to change one db to another db?
+
+ >use olddbname
+
+
+
+ Commands:
+ =========
+ 1.use dbname
+ 2.db.student.insertOne({})
+ 3.db.student.insertMany([{}])
+ 4.db.find()
+ 5.show collections
+ 6.db.login.insertOne({user:"",pwd:""})
+ 7.db.login.deleteOne({})
+ 8.db.login.deleteMant({})
+ 9.db.deleteMany({})
+ 10.db.student.updateOne({rno:115},{$set:{mark:100}})
+ 11.db.student.updateMany({mark:{$gt:49}},{$set:{result:"Pass"}})
+ 12.db.student.updateMany({mark:{$lte:49}},{$set:{result:"Fail"}})
+ 13.db.student.find()
+ 14.db.student.find().sort({name:1})
+ 15.db.student.find().sort({name:-1})
+ 16.db.student.find({mark:{$eq:100}})
+ 17.db.student.find({mark:{$ne:100}})
+ 18.db.student.find({},{_id:0,rno:1,mark:1})
+
