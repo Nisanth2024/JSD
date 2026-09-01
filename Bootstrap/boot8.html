@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style type="text/css">
+       #menu #menuitems{
+            display: block;
+        }
+        a{
+            text-decoration: none;
+            padding: 5px;
+            color: black;
+            background-color: red   ;
+        }
+        #but{
+            background-color: black;
+            color: black;
+            border: 5px solid rgb(236, 137, 153);
+            border-radius: 15px;
+            font-size: 25px;
+            font-family: sans-serif;
+            padding: 10px;
+        }
+        #but1:hover{
+            cursor: pointer;
+            color: white;
+            background-color: brown;
+            font-weight: bold;
+        }
+        #Dropdown{
+            display:inline-block;
+        }
+        #menu{
+            display:none;
+        }
+        #Dropdown:hover #menu{
+            display: block;
+        }
+        #menuitems:hover{
+            color:gray;
+            background-color: yellow;
+        }
+
+    </style>
+</head>
+<body>
+    
+    <h1><center>Dropdown Without bootstrap</center></h1>
+    <div id="Dropdown">
+        <button id="but1">Dropdown</button>
+        <div id="menu">
+            <a id="menuitems" href="#">Home</a>
+            <a id="menuitems" href="#">Careers</a>
+            <a id="menuitems" href="#">About</a>
+            <a id="menuitems" href="#">Contact</a>
+            <a id="menuitems" href="#">Help</a>
+        </div>
+    </div>
+</body>
+</html>
