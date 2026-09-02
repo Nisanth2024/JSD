@@ -1,0 +1,30 @@
+LINUX:
+======
+1.Linux was first developed by Linus Torvales in 1991 by sunmicro system.
+2.Linux is safe and secure.
+3.It can modify as user needs.
+4.The Linux was 1st the multiple user can use.
+
+==========
+INSTALLATION:
+-------------
+1.Download Oracle Virtual Machine(WINDOWS)
+2.Download CentOS (ISO)
+
+==============
+SETUP LINUX:
+------------
+1.Click New
+*)Give name
+*)set os destination to Red hat OS 
+
+2.Specify and Hardware
+*)4096MB
+*)2 processor
+
+3.Hardisk
+*)Minimum 25GB
+
+==========================
+
+
