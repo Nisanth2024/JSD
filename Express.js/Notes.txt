@@ -1,0 +1,21 @@
+Express:
+========
+ Def : Runtime or Dynamic backend Environment.
+
+ Meaning : To get value from enduser.
+
+ Application : html / react js(form input)
+
+ installation:
+
+ D:\Nisanth\JSD\Express.js>npm install express
+
+ Two Methods:
+ =============
+ 1)get method (default)
+ use : it will show all the form input values in URL 
+ 2)post method
+ use : it won't show all the form input values in URL
+ (high security - must know about body-parser)
+
+ 
