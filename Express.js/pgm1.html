@@ -6,13 +6,18 @@
     <title>Document</title>
 </head>
 <body>
-    <form action="http://localhost:8991/testfun" method="get">
+    <h1><center>Inster Data To MongoDB</center></h1>
+    <form action="http://localhost:8991/testfun" method="post">
         <input type="text" placeholder="Enter User Name" name="un">
         <br><br>
         <input type="password" placeholder="Enter Password" name="pw">
         <br><br>
-        <input type="submit" >       
+        <input type="submit" value="Insert/Save" >       
         <input type="Reset" value="clear">
+    </form><br>
+    <h1><center>Show MongoDB Records</center></h1>
+    <form action="http://localhost:8992/showall" method="get">
+        <input type="submit" value="Show All Records" >       
     </form>
 </body>
 </html>

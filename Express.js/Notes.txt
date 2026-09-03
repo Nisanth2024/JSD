@@ -18,4 +18,31 @@ Express:
  use : it won't show all the form input values in URL
  (high security - must know about body-parser)
 
- 
+ BODY-PARSER:
+ ============
+ Hiding form input values in address bar.
+
+Use: It is high security.(do not show password or any form input value in URL)
+
+installation : D:\Nisanth\JSD\Express.js>npm install body-parser
+
+Module import:
+===============
+ Var bp=require("body-parser")
+
+Declarition:
+============
+
+var urlencodeparser=bp.urlencoded({extended:false})
+
+How to use function in post method(body parser)?
+================================================
+note: Apply 3 parameters or arguments
+1.userdefined functionname
+2.urlencodedparser
+3.arrow function
+
+app.post("/funtime",urlencodedparser,(req,res)=>){
+
+    var data1=req.body.t1
+}
