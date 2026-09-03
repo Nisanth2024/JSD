@@ -25,6 +25,66 @@ SETUP LINUX:
 3.Hardisk
 *)Minimum 25GB
 
+After finishing click start in the top.
+
 ==========================
 
+What is OS?
+===========
+ Operating system(OS) is software that manages the computer's Hardware and software resources and provides common services for applications.
+
+source-um exactly OS hardware + software resource manage pannumnu explain pannudhu
+
+HARDWARE NA ENNA?
+=================
+
+HARDWARE = Physical components
+
+Examples:
+---------
+1.CPU 
+2.RAM
+3.SSD/HDD
+4.KEYBOARD
+5.MOUSE
+6.MONITOR
+7.PRINTER
+8.NETWORK CARD
+
+SOFTWARE NA ENNA?
+=================
+
+
+OS Enna pannnum?
+================
+                           Basic flow 
+                           ===========
+
+                             Users
+                              |
+                         applications
+                      Chrome|vs code|VLC
+                              |
+                       operating system
+                              |
+                            Kernel
+                              |
+                           HARDWARE
+                          CPU|RAM|SSD
+
+What is Kernel?
+===============
+Kernel is the core part of an operating system that handles interactions between hardware and software
+
+Simple Definition:
+------------------
+Kernel=OS core/heart
+
+Use Of Kernel:
+=============
+1.CPU/Process Management
+2.Memory Management
+3.Hardware interaction
+4.Storage/Files
+5.Networking
 
