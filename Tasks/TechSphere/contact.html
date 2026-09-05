@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us - TechSphere</title>
+
+    <!-- Bootstrap CSS CDN -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
+          rel="stylesheet">
+</head>
+
+<body class="bg-light">
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
+        <div class="container-fluid">
+
+            <a class="navbar-brand fw-bold" href="index.html">
+                TechSphere
+            </a>
+
+            <button class="navbar-toggler"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <div class="navbar-nav ms-auto">
+                    <a class="nav-link" href="index.html">Home</a>
+                    <a class="nav-link" href="about.html">About Us</a>
+                    <a class="nav-link active" href="contact.html">Contact Us</a>
+                </div>
+            </div>
+
+        </div>
+    </nav>
+
+
+    <div class="container my-5">
+
+        <h1 class="text-center text-primary fw-bold mb-4">
+            Contact Us
+        </h1>
+
+        <!-- Alert appears here -->
+        <div id="alertBox"></div>
+
+
+        <form id="contactForm" class="card p-4 shadow-sm">
+
+            <div class="mb-3">
+                <label for="email" class="form-label">
+                    Email
+                </label>
+
+                <input type="email"
+                       id="email"
+                       class="form-control"
+                       placeholder="Enter your email"
+                       required>
+            </div>
+
+
+            <div class="mb-3">
+                <label for="message" class="form-label">
+                    Message
+                </label>
+
+                <textarea id="message"
+                          class="form-control"
+                          rows="5"
+                          placeholder="Enter your message"
+                          required></textarea>
+            </div>
+
+
+            <button type="submit" class="btn btn-primary">
+                Send Message
+            </button>
+
+        </form>
+
+    </div>
+
+
+    <footer class="container-fluid bg-dark text-white text-center p-4">
+
+        <h5>TechSphere Blog</h5>
+
+        <p class="mb-1">
+            Authors: Nisanth, Member 2, Member 3, Member 4
+        </p>
+
+        <p class="mb-0">
+            Email: techsphere@example.com
+        </p>
+
+    </footer>
+
+
+    <!-- Bootstrap JavaScript CDN -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+
+
+    <script>
+        document
+            .getElementById("contactForm")
+            .addEventListener("submit", function(event) {
+
+                event.preventDefault();
+
+                document.getElementById("alertBox").innerHTML = `
+                    <div class="alert alert-success alert-dismissible fade show" role="alert">
+
+                        Message sent successfully!
+
+                        <button type="button"
+                                class="btn-close"
+                                data-bs-dismiss="alert"
+                                aria-label="Close">
+                        </button>
+
+                    </div>
+                `;
+
+                document.getElementById("contactForm").reset();
+            });
+    </script>
+
+</body>
+</html>
