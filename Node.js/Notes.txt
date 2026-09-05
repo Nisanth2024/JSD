@@ -1,0 +1,50 @@
+NODE JS:
+========
+To See the Output ---> port  http://127.0.0.1:9887/
+node.js is a server-side platform.
+node.js was developed by Ryan Dahi in 2009
+
+Node.js is an open source.
+cross-platform runtime environment.
+for developing server-side and networking applications.
+
+Node.js applications are written in Javascript.
+and can be run within the Node.js runtime on os X, microsoft windows and Linux.
+
+Node.js also provides a rich library of various javascript modules 
+which simplifies the development of web applications
+using Node.js to a great extent.
+
+Node.js = Runtime Environment + Javascript library
+
+Where to use Node.js?
+=====================
+I/O bound applications
+Data streaming applications
+Data Intensive Real-time Applications (DIRT)
+JSON API's based applications
+single page Applications
+
+Official Website:
+=================
+https://nodejs.org/en/
+
+Features of Node.Js
+=====================
+
+Asynchronous And Event Driven
+
+Components of a Node.js Applications:
+======================================
+Three important Components
+
+1.Import required Modules - we use the require directive to load node.js modules.
+
+2.Create Server - A server which will listen to client's request similar to Apache HTTP server.
+
+3.Read request and return response - The server created in an similar step will read the HTTP request made by the client which can be a browser or a console
+
+Simple Program:
+===============
+var http = require("http")
+
