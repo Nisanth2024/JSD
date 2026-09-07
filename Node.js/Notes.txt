@@ -48,3 +48,37 @@ Simple Program:
 ===============
 var http = require("http")
 
+What is callback?
+
+callback is an Asynchronous eqivalent for a function +.
+
+All the APIs of Node are written in such a way that they support callbacks
+
+two types:
+==========
+1.Blocking Code
+2.Non-Blocking code(-Node.js highly sclabale, as it can process a high number of requests without
+waiting or no block for any function to return results. -content of the file must be parameter.)
+
+
+Event_Loop_Emitter
+
+EventEmitter provides multiple properties like on and emit.
+on property is used to bind a function with the event and emit is used to fire an event.
+
+note:
+=====
+
+emit---------->fire event(calling function)
+             like client
+             one or more request send to on properties
+
+on------------>bind event(called function)
+             like server
+             only one
+             purpose : send response to client(emt)
+
+how to install event?
+
+goto terminal
+set your project folder

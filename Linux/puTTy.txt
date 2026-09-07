@@ -1,0 +1,22 @@
+My IP : 192.168.56.101
+
+PuTTy INSTALLATION:
+===================
+1.www.puTTY.org 
+2.download puTTY and configure
+3.enter IP from the linux and save
+4.next click open and login your linux username and password.
+
+
+How to access Linux System
+===========================
+
+
+Commands:
+=========
+1. ctrl+l =============>clear screen
+2. $      =============>Normal User
+3. #      =============>Root user
+4. ls     =============>List Directory
+5. man ls ============>Manual List Directory
+6. su     =============>Switch User

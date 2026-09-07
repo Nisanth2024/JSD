@@ -1,3 +1,4 @@
+
 LINUX:
 ======
 1.Linux was first developed by Linus Torvales in 1991 by sunmicro system.
@@ -87,4 +88,6 @@ Use Of Kernel:
 3.Hardware interaction
 4.Storage/Files
 5.Networking
+
+
 
