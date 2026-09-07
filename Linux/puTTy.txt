@@ -4,8 +4,11 @@ PuTTy INSTALLATION:
 ===================
 1.www.puTTY.org 
 2.download puTTY and configure
-3.enter IP from the linux and save
-4.next click open and login your linux username and password.
+3.open linux terminal and runcommand --> ip a or ip addr or ipconfig
+4.open VM machine setting click network ==> NAT to Host only Adapter and save.
+5.open puTTY 
+6.enter IP from the linux and save
+7.next click open and login your linux username and password.
 
 
 How to access Linux System
@@ -20,3 +23,6 @@ Commands:
 4. ls     =============>List Directory
 5. man ls ============>Manual List Directory
 6. su     =============>Switch User
+7.whoami  =============>to find user
+8.ctrl+c  =============>cut 
+9.ctrl+shift+(+)=======>To ZOom
