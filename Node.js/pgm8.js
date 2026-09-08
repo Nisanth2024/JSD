@@ -1,0 +1,5 @@
+buf=new Buffer.from("I AM IRONMAN")
+console.log(buf)
+console.log(buf.toString())
+buf.write("LOKI",6)
+console.log(buf.toString())

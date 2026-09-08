@@ -4,7 +4,7 @@ var events=require("events")
 //create object to events emitter
 var eventEmitter=new events.EventEmitter();
 
-//bind event (called)
+//bind event (called)  Nisanth===>Event Name
 eventEmitter.on("Nisanth",()=>{
     console.log("Event Called")
 })
