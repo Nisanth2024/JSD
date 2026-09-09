@@ -26,3 +26,5 @@ Commands:
 7.whoami  =============>to find user
 8.ctrl+c  =============>cut 
 9.ctrl+shift+(+)=======>To ZOom
+
+
