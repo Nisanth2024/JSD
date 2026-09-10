@@ -28,6 +28,7 @@ SETUP LINUX:
 
 After finishing click start in the top.
 
+
 ==========================
 
 What is OS?
@@ -205,6 +206,31 @@ COMMANDS:
 20. cat filename.txt =========>to view / see inside the file
 21. echo " " >content.txt 
 22. rm filename ==============> delete file
+23. * ========================>Wildcard directors
+24. cp file1.txt file2.txt ======================>copy
+
+
+FILE SYSTEM STRUCTURE:
+======================
+
+1.  /bin  ===========>user level commands 
+2.  /sbin ===========>System / file system level commands 
+3.  /etc  ===========>configuration files
+4.  /dev  ===========>device files(disk,CD ROM, Flash drive)
+5.  /proc ===========>running Process
+6.  /var  ===========>system logs
+7.  /tnp  ===========>Temporary files
+8.  /usr  ===========>user program and commands
+9.  /home ===========>Directory for user
+10. /boot ===========>contains files used by boot loader
+11. /lib  ===========>c-programming files needed by commands and apps 
+12. /opt  ===========>optional add-on apps 
+13. /mnt  ===========>to mount removable media manually 
+14. /media===========> to mount external harddisk
+15. /srv  ===========>site specific data(FTP, WWW)
+
+
+
 
 
 
