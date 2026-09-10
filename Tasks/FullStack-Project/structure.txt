@@ -1,0 +1,41 @@
+Folder PATH listing
+Volume serial number is CAA5-90D3
+D:.
+¦   structure.txt
+¦   
++---Backend
+¦   +---FullStack-Project
+¦       ¦   .gitattributes
+¦       ¦   .gitignore
+¦       ¦   HELP.md
+¦       ¦   mvnw
+¦       ¦   mvnw.cmd
+¦       ¦   pom.xml
+¦       ¦   
+¦       +---.mvn
+¦       ¦   +---wrapper
+¦       ¦           maven-wrapper.properties
+¦       ¦           
+¦       +---src
+¦           +---main
+¦           ¦   +---java
+¦           ¦   ¦   +---FullStack_Project
+¦           ¦   ¦           FullStackProjectApplication.java
+¦           ¦   ¦           
+¦           ¦   +---resources
+¦           ¦           application.properties
+¦           ¦           
+¦           +---test
+¦               +---java
+¦                   +---FullStack_Project
+¦                           FullStackProjectApplicationTests.java
+¦                           
++---Frontend
+    ¦   index.html
+    ¦   
+    +---css
+    ¦       style.css
+    ¦       
+    +---js
+            script.js
+            
