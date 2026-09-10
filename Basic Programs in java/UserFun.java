@@ -1,7 +1,7 @@
 public class UserFun {
     // A method that returns an integer
-    int a =7;
-    int b =9;
+    static int a =7;
+    static int b =9;
     public static int add(int a, int b) {
         
         return a + b; // Gives back the sum
