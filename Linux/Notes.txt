@@ -1,4 +1,3 @@
-
 LINUX:
 ======
 1.Linux was first developed by Linus Torvales in 1991 by sunmicro system.
@@ -33,7 +32,7 @@ After finishing click start in the top.
 
 What is OS?
 ===========
- Operating system(OS) is software that manages the computer's Hardware and software resources and provides common services for applications.
+Operating system(OS) is software that manages the computer's Hardware and software resources and provides common services for applications.
 
 source-um exactly OS hardware + software resource manage pannumnu explain pannudhu
 
@@ -108,7 +107,7 @@ Linux Command prompt:
 1.Username > hostname > $ >
 
 
-LINUX COMMAND TO CHANGE PASSWORD:
+LINUX COMMAND TO CHANGE PASSWORD:  (passwd username)
 =================================
 1. whoami
 2. passwd root
@@ -180,7 +179,7 @@ Delete system files                      yes                    No
 Access other user's files                yes                    No(Usually)
 Create files in home                     yes                    yes
 UID                                      0                      usually 1000+
-sudo needed                              No                     yes(for admin tasks)     Sudo===>Temporary Access
+sudo needed                              No                     yes(for admin tasks)     Sudo===>Temporary Access sud username
 
 COMMANDS:
 =========
@@ -200,14 +199,53 @@ COMMANDS:
 14. date =========>current date and time
 15. cal ==========>calender
 16. man l=========>Manual List Directory
-17. su ==========>Switch User
-18. ip a  =======>To See My IP : 192.168.56.101
+17. su  ==========>Switch User
+18. ip a   =======>To See My IP : 192.168.56.101
 19. touch filename.txt=======>to create a text file
 20. cat filename.txt =========>to view / see inside the file
-21. echo " " >content.txt 
-22. rm filename ==============> delete file
-23. * ========================>Wildcard directors
-24. cp file1.txt file2.txt ======================>copy
+21. less file.txt ============>it shows content as a page wise for huge contents and to move next page click file
+22. more file.txt ============>it shows the content screen by screen
+23. head file.txt ============>it shows starting content from the huge content 
+24. head -n 20 file.txt=======>it shows 1st 20 lines
+25. echo " " >content.txt ====> To change inside text content of the file
+26. rm filename ==============> delete file
+27. * ========================>Wildcard directors
+28. cp file1.txt file2.txt ======================>copy the file 
+29. cp file.txt home/user/ =====================>copy the file from another location
+30. mkdir folder name =================>Create folder (Don't use space for create folder and if you want use underscore)
+31. mkdir -p project/src ==============>for creating nested folders 
+
+SEARCH COMMANDS:
+================
+32. find /home -name "file.txt"========>find files
+33. find / -name "#.log" =============>peryaril files to search
+34. find . -type f   ==============> log in la mudiyura ella files um theda
+35. find . -type d ==============>to find directories / folders
+36. grep "error" file.txt==========> search files inside text
+37. grep -i "error" file.txt ======>file kula iruka specific words theda use aagudhu
+38. grep -r "error" /var/log/ ======>folder la iruka ella file layum recursive ahh theda use aagudhu
+39. which python ===========>to search where is python command
+40. which java =============>to search where is java command 
+41. which ls =========> to search where is list directory 
+42. ctrl + / q =======>Exit 
+
+TEXT EDIT COMMANDS:
+===================
+43. vi filename.txt
+    1. i =======>Insert mode
+    2. ESC =====>Exit insert mode
+    3. :w ========>save
+    4. :q ========>quit
+    5. :wq =======>save and quit
+    6. :q! =======>quit without saving
+
+44. whoami =====>to know user
+45. id =========>to show user id
+46. who =========>who are all logined
+47. w ===========>logged users enna senjurukanganu paka 
+48. users =======>to see all logged users
+49. useradd username ========> to add user 
+50. 
 
 
 FILE SYSTEM STRUCTURE:
@@ -230,6 +268,15 @@ FILE SYSTEM STRUCTURE:
 15. /srv  ===========>site specific data(FTP, WWW)
 
 
+===================
+
+
+FIREFOX:
+========
+while we connect linux to PuTTy we need to change in VM Network to host only adaptor.
+In that time linux fire fox will not work.
+
+if we want firefox again we need to change the network setting host only adaptor to NAT.
 
 
 

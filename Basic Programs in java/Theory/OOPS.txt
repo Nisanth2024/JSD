@@ -1,0 +1,36 @@
+OOPS:
+=====
+OOPS : Object Oriented Programming Structure.
+
+object : instance of the class
+
+class : class is user defined data type.
+     
+        class is a blue print
+
+        class is a template
+
+        class is a common structure and behaviour to all objects
+
+        class is a hierarchy
+
+Syntax: classs
+======
+
+    class classname
+    {
+        variables
+        method()
+    }
+
+Syntax: object
+=======
+       classname objectname = new classname(parameters or args);
+
+Syntax : how to access class members(variables+methods)
+======
+    
+    objectname.variablename;
+    objectname.methodname();
+
+    note : here (.) is membershib operator.
