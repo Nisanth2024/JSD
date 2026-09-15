@@ -34,3 +34,109 @@ Syntax : how to access class members(variables+methods)
     objectname.methodname();
 
     note : here (.) is membershib operator.
+
+ABSTRACT:
+==========
+set of complete and incomplete methods.
+
+Purpose:
+========
+Override purpose.
+
+Syntax:
+=======
+abstract class classname{
+    variable declare + define;
+	method complete + incomplete;
+}
+
+Note:
+=====
+We can't create object to abstract class.
+
+CONSTRUCTOR:
+============
+- Constructor is a special member method.
+- It is used to initialize object values.
+
+TYPES OF CONSTRUCTOR:
+=====================
+ 1. Default constructor or null constructor
+ 2. Argument or parametarized constructor
+ 3. Copy constructor
+ 4. Overloading constructor(polymorphisim)
+
+ RULES OF CONSTRUCTOR:
+ =====================
+ - Classname and constructor name should be equal.
+ - Constructor should not be private access.
+ - Constructor has no return type(ie. Don't use void).
+ - Constructor called at the time of the object creation.
+
+INHERITANCE:
+============
+- The mechanism deriving derive class from the old one is known as inheritance.
+*Purpose*
+- Reusability of code
+
+TYPES OF INHERITANCE:
+=====================
+1) Single inheritance
+    - only one base class and only one derive class is known as single inheritance.
+
+2) Multiple inheritance
+    - More than one base class and only one derive class (java does not support multiple inheritance so we can use interface concepts in next chapter)
+
+3) Multilevel:
+    - More than one level .
+
+4) Hierarchical inheritance:
+    - It is tree format : only one base class and more derive class.
+
+5) Hybrid inheritance:
+    - Combination of any two inheritance.
+
+NOTE:
+=====
+- this - is inbuilt object of current class.
+- super - object of base class.
+
+INTERFACE:
+==========
+- overriding purpose
+
+SYNTAX:
+=======
+
+	interface interfacename1
+	{
+		variable define only; // should not private or protected
+		ex: int mark=100;
+		method incomplement only;
+		ex:
+		void dis1();
+		
+	}
+
+	interface interfacename2
+	{
+
+		void dis2();
+	}
+	class classname implements interface1,interface2
+	{
+		//override methods
+		public void dis1()
+		{
+
+		}
+		public void dis2()
+		{
+
+		}
+}
+
+
+NOTE:
+=====
+- we can't create object for interface
