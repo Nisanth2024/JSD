@@ -92,7 +92,7 @@ Use Of Kernel:
 
 Im+MPORTANCE OF LINUX:
 ======================
-GUI==>Graphical User Interface // CLI==>Command Line Interface.
+GUI==>Graphical User Interface // CLI==>Command Line Interface. //  VUI===> Voice User Interface
 
 1.LINUX Kernel is an part of an OS.
 2.DOn't use space insted use Underscore(_).
@@ -245,7 +245,8 @@ TEXT EDIT COMMANDS:
 47. w ===========>logged users enna senjurukanganu paka 
 48. users =======>to see all logged users
 49. useradd username ========> to add user 
-50. 
+50. touch -i filename.txt
+51. rm -i filename.txt 
 
 
 FILE SYSTEM STRUCTURE:
