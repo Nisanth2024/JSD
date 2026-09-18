@@ -1,0 +1,35 @@
+{
+  "users": [
+    {
+      "id": "1",
+      "first_name": "John",
+      "last_name": "Doe",
+      "email": "john@example.com"
+    },
+    {
+      "id": "2",
+      "first_name": "Jane",
+      "last_name": "Smith",
+      "email": "jane@example.com"
+    },
+    {
+      "id": "3",
+      "first_name": "David",
+      "last_name": "Brown",
+      "email": "david@example.com"
+    },
+    {
+      "id": "4",
+      "first_name": "Emma",
+      "last_name": "Wilson",
+      "email": "emma@example.com"
+    },
+    {
+      "id": "ZrLc0Z4NLeY",
+      "first_name": "Kai",
+      "last_name": "Nathaniel",
+      "email": "kai.n@example.org"
+    }
+  ],
+  "$schema": "./node_modules/json-server/schema.json"
+}

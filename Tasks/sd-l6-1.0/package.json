@@ -1,0 +1,13 @@
+{
+  "name": "sd-l6-1-assessment",
+  "version": "1.0.0",
+  "description": "Web API End of Module Assessment",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "json-server": "^0.17.4",
+    "prompt-sync": "^4.2.0"
+  }
+}
