@@ -27,4 +27,32 @@ Commands:
 8.ctrl+c  =============>cut 
 9.ctrl+shift+(+)=======>To ZOom
 
+MANAGING PROCESS SERVICE:
+=========================
+
+                        program
+                           |
+                           |
+                        Process
+                           |
+                        ___________
+                        |          |
+                Application       Daemon
+
+PROCESS:
+=======
+ A Process is an instance of a program that is currently beimg executed.
+
+APPLICATION:
+============
+ An Application is a user interactive process that provides functionality directly to the user.
+
+DAEMON:
+=======
+  A Daemon is a background process that normally operates without direct user interaction.
+
+SERVICE:
+========
+  A service is a process or group of process that provides functionality or responds to requests from clients.
+
 

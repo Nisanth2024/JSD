@@ -247,6 +247,8 @@ TEXT EDIT COMMANDS:
 49. useradd username ========> to add user 
 50. touch -i filename.txt
 51. rm -i filename.txt 
+52. ps -p 2929
+53. ps -p 2929 v-f
 
 
 FILE SYSTEM STRUCTURE:
